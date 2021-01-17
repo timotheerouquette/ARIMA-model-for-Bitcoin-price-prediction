@@ -1,7 +1,7 @@
 #Assignment Exercise 2
 
 #read data
-btc.data=read.csv("/Users/timotheerouquette/Downloads/btc.csv")
+btc.data=read.csv("/Data/btc.csv")
 
 #Processing and cleaning data
 btc.data$date=strptime(btc.data$date,format = "%Y-%m-%d")
